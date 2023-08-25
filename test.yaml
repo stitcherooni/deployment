@@ -1,0 +1,9 @@
+pool:
+  name: internal-agent
+
+steps:
+- checkout: none
+- script: |
+    waiting for completion
+    sleep 60
+  displayName: 'wait 60 seconds'
